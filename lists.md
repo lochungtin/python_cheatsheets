@@ -126,6 +126,28 @@ b = [4, 5, 6]
 l = a + b # l is now [1, 2, 3, 4, 5, 6]
 ```
 
+---
+
+Sorting a list.
+This will **change** the original list.
+```py
+l = [4, 3, 2, 1]
+l.sort() # l is now [1, 2, 3, 4]
+```
+
+This will **create** a new list.
+```py
+l = [4, 3, 2, 1]
+sorted(l) # returns [1, 2, 3, 4]
+```
+
+Sort and sorted takes an extra parameter, which is a comparison function to determine the order of sorting.
+```py
+# sort by length
+l = ["one", "two", "three", "four"]
+l.sort(l, len) # l is now ["one", "two", "four", "three"]
+```
+
 ## Bad Practices
 
 - Not doing a check for the length or index before `pop` or `remove`.
