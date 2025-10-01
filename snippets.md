@@ -10,6 +10,15 @@ countFreq([1, 2, 3, 1, 1, 1, 2, 3, 1, 1, 1, 2, 3, 1, 1, 2, 3, 3, 3])
 # returns {1: 9, 2: 4, 3: 6}
 ```
 
+## Flip Dictionary
+```py
+def flipDict(d):
+    return dict((v, k) for k, v in d.items())
+
+flipDict({"a": 1, "b": 2, "c": 3})
+# returns {1: "a", 2: "b", 3: "c"}
+```
+
 ## Color Representation Conversion
 ```py
 def hex2rgb(code):
