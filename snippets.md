@@ -1,4 +1,4 @@
-## Counting item frequency
+## Counting Item Frequency
 ```py
 def countFreq(l):
     freq = {}
