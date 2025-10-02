@@ -53,3 +53,9 @@ while condition:
 def fn(params):
     # whatever is here is part of the function definition
 ```
+
+# Filenames
+
+1. Beware of special python keywords, **DO NOT** name your file those names.
+2. Beware of your imports in the file, **DO NOT** name your file as any of those imports.
+    - This will cause cyclic imports and create unpredictable results.
